@@ -28,16 +28,6 @@ With this system, users can upload a PDF, extract its content, and ask questions
 
 6) Streamlit Frontend: Provides an interactive interface for uploading PDFs and querying their content.
 
-## Directory Structure
-
-.
-├── main.py                  # Streamlit app for the frontend
-├── pdf_processing.py        # Handles PDF text extraction and splitting
-├── vector_store.py          # Creates embeddings and builds a FAISS vector store
-├── qa_chain.py              # Implements the QA chain and querying functionality
-├── requirements.txt         # Python dependencies for the project
-└── README.md                # Documentation for the repository
-
 ## Installation
 
 ### Clone the repository:
